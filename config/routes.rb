@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-     root to: 'tasks#index'
-
-     resources :tasks
-end
+  root to: 'tasks#index'
+get'signup',to:'tasks#new'
+resources:tasks
+  end
